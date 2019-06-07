@@ -17,6 +17,10 @@ The Alexa Skill should set up the Account Linking section to allow the user conn
 
 Once the Google account is linked to the Skill, Alexa will send a user acces token to be included in the Google Calendar requests:
 
+``
+handlerInput.requestEnvelope.context.System.user.accessToken
+``
+
 **Get primary calendar details:**
 
 + **URL:**
